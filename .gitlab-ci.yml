@@ -1,0 +1,6 @@
+# File: .gitlab-ci.yml
+image: docker:latest
+
+services:
+  - docker:dind
+
